@@ -1,6 +1,6 @@
-package net.isaiah.oceanexploration.item;
+package net.voided.oceanexploration.item;
 
-import net.isaiah.oceanexploration.OceanExploration;
+import net.voided.oceanexploration.OceanExploration;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

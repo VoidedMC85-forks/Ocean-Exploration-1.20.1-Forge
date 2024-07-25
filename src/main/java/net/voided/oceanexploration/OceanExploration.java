@@ -1,7 +1,7 @@
-package net.isaiah.oceanexploration;
+package net.voided.oceanexploration;
 
 import com.mojang.logging.LogUtils;
-import net.isaiah.oceanexploration.item.ModItems;
+import net.voided.oceanexploration.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
