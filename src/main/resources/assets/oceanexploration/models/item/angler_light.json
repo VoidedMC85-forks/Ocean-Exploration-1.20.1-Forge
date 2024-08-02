@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "oceanexploration:item/angler_ligh"
+    "layer0": "oceanexploration:item/angler_light"
   }
 }
