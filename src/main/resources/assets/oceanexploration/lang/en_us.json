@@ -1,3 +1,6 @@
 {
-  "item.oceanexploration.shark_tooth": "Shark Tooth"
+  "item.oceanexploration.shark_tooth": "Shark Tooth",
+  "item.oceanexploration.angler_light": "Angler Light",
+
+  "creativetab.ocean_tab": "Ocean Exploration"
 }

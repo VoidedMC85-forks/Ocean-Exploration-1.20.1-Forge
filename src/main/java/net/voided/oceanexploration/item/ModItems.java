@@ -13,7 +13,7 @@ public class ModItems {
 // Copy from public to Item properties then paste below
      public static final RegistryObject<Item> SHARK_TOOTH = ITEMS.register("shark_tooth",
              () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Thing = ITEMS.register("thing",
+    public static final RegistryObject<Item> ANGLER_LIGHT = ITEMS.register("angler_light",
             () -> new Item(new Item.Properties()));
 
 

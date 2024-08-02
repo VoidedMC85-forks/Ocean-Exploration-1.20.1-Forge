@@ -1,6 +1,7 @@
 package net.voided.oceanexploration;
 
 import com.mojang.logging.LogUtils;
+import net.voided.oceanexploration.item.ModCreativeModeTabs;
 import net.voided.oceanexploration.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,9 @@ public class OceanExploration
 
     public OceanExploration() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+        
 
         ModItems.register(modEventBus);
 
