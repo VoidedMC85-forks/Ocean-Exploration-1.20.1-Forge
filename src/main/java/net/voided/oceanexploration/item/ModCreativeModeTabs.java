@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.voided.oceanexploration.OceanExploration;
+import net.voided.oceanexploration.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SHARK_TOOTH.get());
                         pOutput.accept(ModItems.ANGLER_LIGHT.get());
+
+                        pOutput.accept(ModBlocks.SANDSTONE_BRICKS.get());
 
                     })
                     .build());
